@@ -21,6 +21,7 @@ console.log(val.toUpperCase());
 //? this is known as the type narrowing
 
 if(typeof value === 'string'){
+    //? checking type before it is happening is known as the type narrowing
     console.log(value.toUpperCase());
 }else if(typeof value === 'number'){
     console.log(value * 10);

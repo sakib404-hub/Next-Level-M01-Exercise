@@ -36,3 +36,34 @@ const chowdhury : EmpManager = {
     teamSize : 5
 }
 console.log(chowdhury);
+
+
+type Student = {
+    id : number,
+    name : string,
+    regiNumber  ? : number,
+}
+
+type Associate = {
+    associateId : number,
+    designation : string,
+    phnNo : number
+}
+
+type StudentAssociate =  Student & Associate;
+
+const person1 : StudentAssociate = {
+    id : 123,
+    name : 'Anything',
+    associateId : 12345,
+    designation : 'Student Associate',
+    phnNo : 181919181
+}
+console.log(person1);
+
+
+/**
+ * ?  ? ----> this is used a ternary operator
+ * ? ?? ----? this is used as nullish coalescing operator
+ * ? ? ----> in object declearation it is used to make a property optional
+ */

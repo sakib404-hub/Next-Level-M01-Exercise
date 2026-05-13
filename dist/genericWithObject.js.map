@@ -1,0 +1,1 @@
+{"version":3,"file":"genericWithObject.js","sourceRoot":"","sources":["../src/genericWithObject.ts"],"names":[],"mappings":";;AAOA,MAAM,QAAQ,GAAwB;IAClC,EAAC,IAAI,EAAG,cAAc,EAAE,GAAG,EAAG,EAAE,EAAC;IACjC,EAAC,IAAI,EAAG,aAAa,EAAE,GAAG,EAAG,EAAE,EAAC;IAChC,EAAC,IAAI,EAAG,OAAO,EAAE,GAAG,EAAG,EAAE,EAAC;CAC7B,CAAA;AAED,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC,CAAC"}

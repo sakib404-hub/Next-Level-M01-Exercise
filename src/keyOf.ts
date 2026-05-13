@@ -65,3 +65,19 @@ const genericPropertyFromObj = <T>(obj : T, key : keyof T)=>{
 const result2 = genericPropertyFromObj(product, 'model') 
 const result3 = genericPropertyFromObj(s1, 'class')
 console.log({result2, result3});
+
+type Lighter = {
+    id : number;
+    name : string;
+    color : string;
+    hasGas : boolean
+}
+
+const lighter : Lighter = {
+    id : 1,
+    name : 'sunlight',
+    color : 'blue',
+    hasGas : true
+}
+
+type Keys = keyof Lighter; //? 'id' | 'name' | 'color' | 'hasGas'
